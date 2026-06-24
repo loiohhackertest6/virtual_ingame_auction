@@ -1,0 +1,7 @@
+time_in_selling:
+  time: 3600000
+  add1: 10
+  add2: 100
+  add3: 1000
+auction_items:
+  last: 0

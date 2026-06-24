@@ -1,0 +1,30 @@
+name: AuctionR1
+version: '${project.version}'
+main: org.example1.auctionr1.AuctionR1
+api-version: 1.19
+commands:
+  auction_open:
+    description: open auction
+    usage: /<command>
+    aliases:
+      - auc
+  auction_sell:
+    description: sell item in main hand (at auction)
+    usage: /<command> <cost>
+    aliases:
+      - auc_sell
+  set_auction_time:
+    description: set auction time(seconds(3600-hour))
+    usage: /<command> <time>
+    aliases:
+      - auc_time
+  set_auction_adds:
+    description: set auction item adds(10,100,1000)
+    usage: /<command> <add1> <add2> <add3>
+    aliases:
+      - auc_adds
+  auction_get:
+      description: open your auction interface
+      usage: /<command>
+      aliases:
+        - auc_get
